@@ -58,7 +58,7 @@ To solve the optimization problem, run this command:
 ```
 python optimality.py $dataset $N $formulation_type $break_symmetry $seed_gnn $seed_gurobi
 ```
-where \$dataset is the name of dataset (QM7 or QM9), \$N is the number of atoms $(\in\{4,5,6,7,8\})$, \$formulation_type denotes the type of formulation (0 for bi-linear, 1 for big-M), \$break_symmetry is binary and indices adding symmetry-breaking constraints, \$seed_gnn is the random seed for traing GNN, and \$seed_gurobi is the random seed of Gurobi.
+where \$dataset is the name of dataset (QM7 or QM9), \$N is the number of atoms (chosen from {4,5,6,7,8}), \$formulation_type denotes the type of formulation (0 for bi-linear, 1 for big-M), \$break_symmetry is binary and indices adding symmetry-breaking constraints, \$seed_gnn is the random seed for traing GNN, and \$seed_gurobi is the random seed of Gurobi.
 
 ## MIP formulations for CAMD
 
@@ -71,9 +71,7 @@ The symmetry-breaking constraints (C26) and (C27) are implemented in line 248 ~ 
 
 ## MIP formulations for GNNs
 
-The implementation of MIP formulation for GNNs is based on open-source package OMLT (available under a BSD license in ``\omlt\LICENSE.rst``). 
-
-We downloaded the source code of [OMLT](https://github.com/cog-imperial/OMLT) at 8/2/2023, which was still the newest version when we submitted the paper. 
+The implementation of MIP formulation for GNNs is based on open-source package [OMLT](https://github.com/cog-imperial/OMLT) (available under a BSD license in ``\omlt\LICENSE.rst``). 
 
 Two formulations ``full_space_gnn_layer_bilinear`` and ``full_space_gnn_layer_bigm`` are added in ``\omlt\neuralnet\layers\full_space.py`` (line 38 ~ 169).
 
