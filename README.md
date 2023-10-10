@@ -76,3 +76,6 @@ The implementation of MIP formulation for GNNs is based on open-source package [
 Two formulations ``full_space_gnn_layer_bilinear`` and ``full_space_gnn_layer_bigm`` are added in ``\omlt\neuralnet\layers\full_space.py`` (line 38 ~ 169).
 
 To call one of these formulations, ``\omlt\neuralnet\nn_formulation.py`` is modified (line 185 ~ 190).
+
+# Contributors
+Shiqiang Zhang. Funded by an Imperial College Hans Rausing PhD Scholarship.
