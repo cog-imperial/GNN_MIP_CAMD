@@ -73,6 +73,8 @@ The symmetry-breaking constraints (C26) and (C27) are implemented in line 248 ~ 
 
 The implementation of MIP formulation for GNNs is based on open-source package [OMLT](https://github.com/cog-imperial/OMLT) (available under a BSD license in ``\omlt\LICENSE.rst``). 
 
+We downloaded the source code of OMLT at 8/2/2023, which was still the newest version when we submitted the paper. 
+
 Two formulations ``full_space_gnn_layer_bilinear`` and ``full_space_gnn_layer_bigm`` are added in ``\omlt\neuralnet\layers\full_space.py`` (line 38 ~ 169).
 
 To call one of these formulations, ``\omlt\neuralnet\nn_formulation.py`` is modified (line 185 ~ 190).
