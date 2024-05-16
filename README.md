@@ -1,17 +1,18 @@
 # GNN_MIP_CAMD
 
-This repository is the official implementation of the paper ["Optimizing over trained GNNs via symmetry breaking"](https://arxiv.org/abs/2305.09420). The paper has been accepted into NeurIPS 2023. Until the conference, please cite this preprint:
+This repository is the official implementation of the paper ["Optimizing over trained GNNs via symmetry breaking"](https://openreview.net/pdf?id=znW5jNIOED). The paper was published in NeurIPS 2023. Please cite as:
 
-- Shiqiang Zhang, Juan S Campos, Christian Feldmann, David Walz, Frederik Sandfort, Miriam Mathea, Calvin Tsay, Ruth Misener. "Optimizing over trained GNNs via symmetry breaking." arXiv preprint arXiv:2305.09420 (2023).
+- Shiqiang Zhang, Juan S Campos, Christian Feldmann, David Walz, Frederik Sandfort, Miriam Mathea, Calvin Tsay, Ruth Misener. "Optimizing over trained GNNs via symmetry breaking." Advances in Neural Information Processing Systems 37 (2023).
 
 The BibTeX reference is:
 
-    @article{zhang2023optimizing,
-    title={Optimizing over trained GNNs via symmetry breaking},
-    author={Zhang, Shiqiang and Campos, Juan S and Feldmann, Christian and Walz, David and Sandfort, Frederik and Mathea, Miriam and Tsay, Calvin and Misener, Ruth},
-    journal={arXiv preprint arXiv:2305.09420},
-    year={2023}
-}
+    @article{zhang2024optimizing,
+      title={Optimizing over trained GNNs via symmetry breaking},
+      author={Zhang, Shiqiang and Campos, Juan and Feldmann, Christian and Walz, David and Sandfort, Frederik and Mathea, Miriam and Tsay, Calvin and Misener, Ruth},
+      journal={Advances in Neural Information Processing Systems},
+      volume={37},
+      year={2023}
+    }
 
 ## Requirements
 
@@ -78,4 +79,4 @@ Two formulations ``full_space_gnn_layer_bilinear`` and ``full_space_gnn_layer_bi
 To call one of these formulations, ``\omlt\neuralnet\nn_formulation.py`` is modified (line 185 ~ 190).
 
 # Contributors
-Shiqiang Zhang. Funded by an Imperial College Hans Rausing PhD Scholarship.
+[*Shiqiang Zhang*](https://github.com/zshiqiang). Funded by an Imperial College Hans Rausing PhD Scholarship.
