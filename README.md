@@ -41,7 +41,7 @@ To train a GNN and then transform it into ONNX format, run this command:
 ```
 python training_and_transformation.py $dataset $seed_gnn
 ```
-where \$dataset is the name of dataset (QM7 or QM9), \$seed_gnn is the random seed for traing GNN.
+where \$dataset is the name of dataset (QM7 or QM9), \$seed_gnn is the random seed for training GNN.
 
 
 ## Count feasible solutions
