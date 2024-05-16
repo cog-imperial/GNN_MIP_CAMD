@@ -2,13 +2,13 @@
 
 This repository is the official implementation of the paper ["Optimizing over trained GNNs via symmetry breaking"](https://openreview.net/pdf?id=znW5jNIOED). The paper was published in NeurIPS 2023. Please cite as:
 
-- Shiqiang Zhang, Juan S Campos, Christian Feldmann, David Walz, Frederik Sandfort, Miriam Mathea, Calvin Tsay, Ruth Misener. "Optimizing over trained GNNs via symmetry breaking." Advances in Neural Information Processing Systems 37 (2023).
+- Shiqiang Zhang, Juan S. Campos, Christian Feldmann, David Walz, Frederik Sandfort, Miriam Mathea, Calvin Tsay, Ruth Misener. "Optimizing over trained GNNs via symmetry breaking." Advances in Neural Information Processing Systems 37 (2023).
 
 The BibTeX reference is:
 
-    @article{zhang2024optimizing,
+    @article{zhang2023,
       title={Optimizing over trained GNNs via symmetry breaking},
-      author={Zhang, Shiqiang and Campos, Juan and Feldmann, Christian and Walz, David and Sandfort, Frederik and Mathea, Miriam and Tsay, Calvin and Misener, Ruth},
+      author={Shiqiang Zhang and Juan S. Campos and Christian Feldmann and David Walz and Frederik Sandfort and Miriam Mathea and Calvin Tsay and Ruth Misener},
       journal={Advances in Neural Information Processing Systems},
       volume={37},
       year={2023}
